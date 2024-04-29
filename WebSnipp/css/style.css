@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.container{
+    cursor: pointer;
+}
+section{
+    padding: 100px 0px;
+}
+/* typgraphy */
+h1{
+    font-size: 77px;
+    line-height: 87px;
+    margin-bottom: 15px;
+    color: #000000;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+    color: #2b333e;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    color: #2b333e;
+    font-weight: 700;
+}
+h4{
+    font-size: 15px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    color: #3b8df3;
+}
+p{
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #292929;
+}
+
+/* End of typography */
+
+/* ------------------
+header start
+----------------- */
+
+header{
+    padding: 17px 100px;
+    background: #dbf4fe;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-nav .nav-link{
+    padding: 15px 25px !important;
+
+}
+
+/* ------------------
+header start
+----------------- */
+
+/* ------------------
+banner start
+----------------- */
+
+.banner{
+    /* height: 1px; */
+}
+
+.bg-theme{
+    background: #dbf4fe;
+}
+
+.banner-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner-txt h1{
+    font-size: 4vw;
+    margin-bottom: 15px;
+    color: #000000;
+    font-weight: 700;
+    line-height: calc(4vw + 10px);
+}
+
+.banner-txt p{
+    font-size: 10px;
+}
+
+/* ------------------
+banner ends
+----------------- */
+
+/* ------------------
+title starts
+----------------- */
+
+.title-sec{
+    text-align: center;
+}
+
+.title-sec p{
+    color: #3b8df3;
+    margin-bottom: 16px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.card-body p{
+    color: #000000;
+}
+
+.card{
+    border: 1px solid #dbf4fe;
+    width: 22rem !important;
+    padding: 30px 2px;
+    height: 22rem;
+}
+
+
+/* ------------------
+title ends
+----------------- */
+
+.service-sec{
+    background: #f4fcff;
+}
+
+.service-txt{
+    margin-top: 10rem;
+    width: 409px;
+}
+
+.service-para{
+    color: #5c9df4;
+}
+
+.exp-arrow{
+    margin-top: 34px;
+}
+
+
+/* media queries  */
+
+@media (max-width:750px) {
+    header{
+        padding: 0px 10px;
+    }
+}
